@@ -19,7 +19,7 @@ The environment variable set as "SINK_PORT" will be the port the container will 
 
 The volume mapped into the container as /opt/spamsink/mails will be the folder where the received mails will be saved, one file per email, the naming configured to be "dincoming-%Y%%m%d%H%M.some_pseudo_random_id>"
 
-Once the container run, a connection can be established:
+Once the container runs, a connection can be established:
 
 ```
 $ telnet localhost 25
