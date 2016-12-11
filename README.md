@@ -21,12 +21,12 @@ The volume mapped into the container as /opt/spamsink/mails will be the folder w
 
 Once the container run, a connection can be established:
 
-``
-    $ telnet localhost 25
-    Trying 127.0.0.1...
-    Connected to localhost.
-    Escape character is '^]'.
-    220 mail.example.com ESMTP
-``
+```
+$ telnet localhost 25
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+220 mail.example.com ESMTP
+```
 
 Have fun! :-)
